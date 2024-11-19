@@ -22,6 +22,7 @@ def main(page: ft.Page):
                 ft.IconButton(ft.icons.REMOVE, on_click=minus_click),
                 txt_number,
                 ft.IconButton(ft.icons.ADD, on_click=plus_click),
+                ft.FilledButton(text="Filled button", on_click=panda_check),
             ],
             alignment=ft.MainAxisAlignment.CENTER,
         )
